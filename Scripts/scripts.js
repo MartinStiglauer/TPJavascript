@@ -122,12 +122,6 @@ var productos = [
 ];
 
 var carrito = [
-    {   id: 1,
-        nombre: "harina",
-        precioUnitario: 35,
-        cantidad: 9
-        
-    },
 
 ];
 
