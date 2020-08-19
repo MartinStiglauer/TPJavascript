@@ -1,0 +1,47 @@
+Definicion de TP 1: JavaScript + HTML + CSS
+Definicion TP
+Realizar un carrito de compras con las siguientes caracteristicas:
+1. Dado un array de producto con la siguiente estructura:
+[{
+   id: numero,
+   nombre: string,
+   cantidad: numero,
+   precioUnitario: numero
+}]
+Mostrar en una tabla "Productos", todos los productos indicando:
+nombre | precioUnitario | input cantidad a comprar | boton comprar
+Mostrar en otra tabla "Carrito", los productos que el usuario "compre" de la tabla anterior, indicando:
+nombre | cantidad | precioUnitario | precio total | boton Borrar
+Si el usuario hace clic sobre el boton borrar, el producto debe desaparecer de la lista.
+Al finalizar, debe haber un boton para "Completar compra" que debera totalizar la lista de productos comprados e indicar en un elemento dicho total. Ademas, mostrar las cantidades de cada producto que quedaron en stock.
+Tener en cuenta:
+No se puede comprar mas de una vez un producto. Si el usuario vuelve a comprar un producto, un cartel debe avisarle que no es posible.
+No se puede modificar la cantidad comprada desde el carrito. El usuario debera borrar y volver a comprar.
+No se pueden comprar mas productos que los que se encuentran en stock
+Al comprar un producto, el stock debe bajar.
+IMPORTANTE
+1. Usar solo los temas vistos en clase
+2. El tp debe tener al menos:
+	1. Uso eventlistener (no uso, uso pero mal implementado, correcto, muy bueno)
+	2. Uso llegada a nodo por parent (no uso, uso pero mal implementado, correcto, muy bueno)
+	3. Uso de bootstrap (no uso, uso pero mal implementado, correcto, muy bueno)
+	4. Archivos HTML, JS, CSS (no uso, uso pero mal implementado, correcto, muy bueno)
+	5. Uso de array con metodos find, indexOf, push, slice, splice (no uso, uso pero mal implementado, correcto, muy bueno)
+	6. ForEach (no uso, uso pero mal implementado, correcto, muy bueno)
+	7. Funciones (no uso, uso pero mal implementado, correcto, muy bueno)
+	8. Eventos (no uso, uso pero mal implementado, correcto, muy bueno)
+	9. Dividir en carpetas (no uso, uso pero mal implementado, correcto, muy bueno)
+	10. Codigo identado (no uso, uso pero mal implementado, correcto, muy bueno)
+	11. Codigo comentado (no uso, uso pero mal implementado, correcto, muy bueno)
+	
+	
+Entrega:
+Pre-entrega: 05/08
+Entrega: 12/08
+Recuperatorio: 19/08
+Criterio de correccion
+Tp + correccion del tp del compañero
+
+TENGO QUE CORREGIRLE A LUCAS SPAGNOLI, ME TIENE QUE CORREGIR WANDA
+
+PARA SACAR LOS PRODUCTOS ES REMOVECHILD

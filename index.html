@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="Description" content="Enter your description here"/>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link rel="stylesheet" href="./Css/style.css">
+        <title>Supermercado Argento</title>
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-6">
+                    <h1 class="Titulos">Listado de Productos</h1>
+                    <table class="tablas">
+                        <thead>
+                            <tr>
+                                <th>Producto</th>
+                                <th>Stock</th>
+                                <th>Precio Unitario</th>
+                                <th>Cantidad a Comprar</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody class="tbodyProductos">
+                        </tbody>
+                    </table> 
+                </div>
+                <div class="offset-1 col-4">
+                    <h1 class="Titulos">Carrito de Compras</h1>
+                    <table class="tablas">
+                        <thead>
+                            <tr>
+                                <th>Producto</th>
+                                <th>Cantidad a Comprar</th>
+                                <th>Sub-Total</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody class="tbodyCarrito">
+                        </tbody>
+                    </table>
+                    <div class="ContainerTotalCompra">
+                        <span class="Signo">$ </span><span id="TotalCompra">0</span>
+                        <button class="btn btn-success BotonFin" onclick="FinalizarCompra()">Finalizar Compra</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="./Scripts/scripts.js"></script>
+    </body>
+</html>

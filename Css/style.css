@@ -1,0 +1,32 @@
+.tablas{
+    width: 100%;
+}
+.imgproductos {
+    width: 50px;
+}
+.ContainerTotalCompra {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+.BotonFin {
+    float: right;
+}
+#TotalCompra {
+    font-size: 1.5rem;
+}
+.Signo {
+    font-size: 1.5rem;
+}
+.TablaCentro {
+    align-content: center;
+    text-align: center;
+}
+.Titulos {
+    align-content: center;
+    text-align: center;
+}
+table thead {
+    align-content: center;
+    text-align: center;
+}
